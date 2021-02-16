@@ -98,8 +98,8 @@ class LearnedSimulator(snt.AbstractModule):
         If None, we assume all particles are the same type.
 
     Returns:
-      updated_position_sequence with shape [num_particles_in_batch,
-        num_dimensions] for one step into the future from the input sequence.
+      Next position with shape [num_particles_in_batch, num_dimensions] for one
+      step into the future from the input sequence.
     """
     input_graphs_tuple = self._encoder_preprocessor(
         position_sequence, n_particles_per_example, global_context,
@@ -207,7 +207,7 @@ class LearnedSimulator(snt.AbstractModule):
   def get_predicted_and_target_normalized_accelerations(
       self, next_position, position_sequence_noise, position_sequence,
       n_particles_per_example, global_context=None, particle_types=None):  # pylint: disable=g-doc-args
-    """Produces a model step, outputting the next position for each particle.
+    """Produces normalized and predicted acceleration targets.
 
     Args:
       next_position: Tensor of shape [num_particles_in_batch, num_dimensions]

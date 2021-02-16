@@ -24,6 +24,11 @@ https://deepmind.com/research/publications/
 
 ## Projects
 
+*   [Characterizing signal propagation to close the performance gap in unnormalized ResNets](nfnets), ICLR 2021
+*   [Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples](adversarial_robustness)
+*   [Functional Regularisation for Continual Learning](functional_regularisation_for_continual_learning), ICLR 2020
+*   [Self-Supervised MultiModal Versatile Networks](mmv), NeurIPS 2020
+*   [ODE-GAN: Training GANs by Solving Ordinary Differential Equations](ode_gan), NeurIPS 2020
 *   [Algorithms for Causal Reasoning in Probability Trees](causal_reasoning)
 *   [Gated Linear Networks](gated_linear_networks), NeurIPS 2020
 *   [Value-driven Hindsight Modelling](himo), NeurIPS 2020
@@ -57,6 +62,8 @@ https://deepmind.com/research/publications/
 *   [Graph Matching Networks for Learning the Similarity of Graph Structured
     Objects](graph_matching_networks), ICML 2019
 *   [REGAL: Transfer Learning for Fast Optimization of Computation Graphs](regal)
+*   [Deep Ensembles: A Loss Landscape Perspective](ensemble_loss_landscape)
+
 
 
 
